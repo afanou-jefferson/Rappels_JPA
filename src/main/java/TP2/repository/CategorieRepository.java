@@ -1,9 +1,12 @@
 package TP2.repository;
 
-public class CategorieRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
 
-	public CategorieRepository() {
-		// TODO Auto-generated constructor stub
-	}
+import TP2.entite.Categorie;
+import TP2.entite.Film;
+
+public interface CategorieRepository extends JpaRepository<Categorie, Integer>  {
+
+
 
 }
